@@ -16,10 +16,10 @@ tag_filter = "v?\\d+(\\.\\d+)*.*"
 
 # metadata and dependencies
 [project]
-name = "BIOFOX GPT"
+name = "biofox-kotaemon-lib"
 dynamic = ["version"]
 requires-python = ">= 3.10"
-description = "BIOFOX GPT"
+description = "Kotaemon library for intelligent document processing and question answering, part of BIOFOX GPT."
 dependencies = [
     "azure-ai-documentintelligence",
     "beautifulsoup4>=4.12.3,<4.13",
